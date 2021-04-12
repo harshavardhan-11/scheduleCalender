@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: "Roboto";
+    color: #301c02;
+}
+
+body {
+    margin: 0px;
+}
+
+.login-page-bg-container {
+    background-color: #e9eef5;
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.login-heading {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.login-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.login-each-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account {
+    color: #505a61;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-primary {
+    align-self: flex-start;
+}
+
+.register-card {
+    display: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.home-bg-container {
+    background-color: #e9eef5;
+    height: 100vh;
+}
+
+.home-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-direction1 {
+    display: flex;
+    width: 100%;
+}
+
+#wecomeText {
+    font-size: 20px;
+}
+
+textarea {
+    border-radius: 6px;
+}
+
+.schedule-bg {
+    background-color: white;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.table-bg {
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+@media (min-width: 768px) {
+
+    .login-page-bg-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        margin-right: 20px;
+        align-self: center;
+    }
+
+    .login-card {
+        background-color: #ffffff;
+        padding: 20px;
+        height: 420px;
+    }
+
+    .login-card-align {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    .create-account {
+        display: none;
+    }
+
+    .register-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .schedule-bg {
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    .table-bg {
+        width: 68%;
+    }
+}
